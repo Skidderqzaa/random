@@ -2849,7 +2849,6 @@ Button = gametab:CreateButton({
 -- Fisch
 elseif game.GameId==16732694052 then
 	gametab=Window:CreateTab("Fisch")
-	Section = gametab:CreateSection("Dont Use Histy Hub with other scripts or it wont work")
 	Button = gametab:CreateButton({
 	Name = "SPRG Hub",
 	Callback = function()
